@@ -6,11 +6,11 @@ Requires at least: 2.0.2
 Tested up to: 3.2.1
 Stable tag: 0.1
 
-This is a simple, single purpose plugin to flush the APC opcode cache.
+This is a simple, single purpose plugin to flush the APC opcode cache from within the WordPress admin panel.
 
 == Description ==
 
-Currently, the easiest ways to flush the APC cache are to either restart the web server (Apache/Nginx) or configure a plugin like W3 Total Cache. If you would like to prevent minor service interruptions without restarting your web server or PHP daemon, this plugin will gracefully flush the opcode cache.
+Currently, the easiest ways to flush the APC cache are to either restart the web server or configure a plugin like W3 Total Cache to flush the cache for you. If you would like more granular control and also prevent minor service interruptions without restarting your web server or PHP daemon, this plugin will gracefully flush the opcode cache.
 
 == Installation ==
 
