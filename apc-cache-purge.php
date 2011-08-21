@@ -10,6 +10,7 @@ Description: This is a simple, single purpose plugin to flush the APC cache.
 Author: TJ Stein
 Version: 0.1
 Author URI: http://tjstein.com
+License: GPLv2
 */
 function apc_purge() {
 	return apc_clear_cache;
