@@ -7,7 +7,7 @@
 Plugin Name: APC Cache Purge
 Plugin URI: http://tjstein.com
 Description: This is a simple, single purpose plugin to flush the APC cache.
-Author: TJ Stein
+Author: TJ Stein, inspired by Kaspars Dambis of konstruktors.com
 Version: 0.1
 Author URI: http://tjstein.com
 License: GPLv2
