@@ -13,7 +13,7 @@ Author URI: http://tjstein.com
 License: GPLv2
 */
 function apc_purge() {
-	return apc_clear_cache;
+	return apc_clear_cache('opcode');
 }
 // Add Purge APC menu under Tools menu
 add_action('admin_menu', 'php_apc_info');
